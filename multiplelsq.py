@@ -53,7 +53,7 @@ def main():
 
     # Plot regression line
     plt.plot(X, y_pred, color='red', label='Regression Function')
-
+    # Output graph is for function: y = a * x + b * sin(x)
     plt.xlabel('X')
     plt.ylabel('Y')
     plt.legend()
